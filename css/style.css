@@ -1,0 +1,31 @@
+body {
+  max-width: 960px;
+  max-height: auto;
+  margin-top: 10px;
+}
+
+.header {
+  position: relative;
+  left: -50px;
+}
+
+.name {
+  font-family: 'Slackey', cursive;
+  font-size: 36px;
+}
+
+.container {
+  position: relative;
+  left: 460px;
+}
+
+.start {
+  padding: 0;
+  border: 0;
+  background-color: white;
+}
+
+.start:active{
+    position:relative;
+    top: 10px;
+}
