@@ -26,5 +26,5 @@ User loses if user doesn’t guess in 5 minutes
 User loses 10 seconds for each wrong guess
 
 Gif shuffling the deck
----
+
 *Game is still under construction*
