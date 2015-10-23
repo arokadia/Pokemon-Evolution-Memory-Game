@@ -1,31 +1,62 @@
 body {
-  max-width: 960px;
-  max-height: auto;
-  margin-top: 10px;
+  background: black;
 }
 
-.header {
-  position: relative;
-  left: -50px;
+#content {
+  margin: 0 auto;
+  width: 960px;
 }
 
-.name {
+#header {
+  margin-bottom: 20px;
+}
+
+#title {
   font-family: 'Slackey', cursive;
   font-size: 36px;
 }
 
-.container {
-  position: relative;
-  left: 460px;
+button {
+  margin-bottom: 20px;
 }
 
-.start {
-  padding: 0;
-  border: 0;
-  background-color: white;
+.row {
+  clear: both;
 }
 
-.start:active{
-    position:relative;
-    top: 10px;
+.column {
+  border: 1px solid #595139;
+  float: left;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 50px;
+  height: 150px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.column:hover {
+  background-color: #A6977B;
+}
+
+.found {
+  background-color: #595139;
+  color: #FFFFFF;
+}
+
+#info {
+  font-family: 'Slackey', cursive;
+  font-size: 50px;
+}
+
+.won {
+  background-color: #F2F0CE;
+  border: 1px solid #83A603;
+  color: #83A603;
+}
+
+#timer {
+  font-family: 'Slackey', cursive;
+  font-size: 20px;
 }
